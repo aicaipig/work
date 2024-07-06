@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>内蒙古大学人车监控系统</string>
+   <string>内蒙古大学车流监控系统</string>
   </property>
   <property name="styleSheet">
    <string>
@@ -49,7 +49,7 @@
     </font>
    </property>
    <property name="text">
-    <string>欢迎进入内蒙古大学人车监控系统</string>
+    <string>欢迎进入内蒙古大学车流监控系统</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>

@@ -68,10 +68,6 @@ class Ui_Dialog(object):
         self.screenshotButton.setGeometry(QtCore.QRect(520, 280, 100, 30))
         self.screenshotButton.setObjectName("screenshotButton")
 
-        self.nwButton = QtWidgets.QPushButton(Dialog)
-        self.nwButton.setGeometry(QtCore.QRect(640, 280, 101, 31))
-        self.nwButton.setObjectName("nwButton")
-
         self.swButton_2 = QtWidgets.QRadioButton(Dialog)
         self.swButton_2.setGeometry(QtCore.QRect(530, 180, 96, 24))
         self.swButton_2.setObjectName("swButton_2")
@@ -88,12 +84,11 @@ class Ui_Dialog(object):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
         self.video1.setText(_translate("Dialog", "TextLabel"))
-        self.label.setText(_translate("Dialog", "东门-车流流量:"))
+        self.label.setText(_translate("Dialog", "车流流量:"))
         self.carnum.setText(_translate("Dialog", "0"))
-        self.title.setText(_translate("Dialog", "人车流量监控系统"))
+        self.title.setText(_translate("Dialog", "车流量监控系统"))
         self.groupBox.setTitle(_translate("Dialog", "GroupBox"))
         self.screenshotButton.setText(_translate("Dialog", "Screenshot"))
-        self.nwButton.setText(_translate("Dialog", "new"))
         self.swButton_2.setText(_translate("Dialog", "yuan2"))
         self.swButton_1.setText(_translate("Dialog", "yuan1"))
 

@@ -37,7 +37,7 @@ class Ui_Dialog(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "内蒙古大学人车监控系统"))
+        Dialog.setWindowTitle(_translate("Dialog", "内蒙古大学车流监控系统"))
         Dialog.setStyleSheet(_translate("Dialog", "\n"
 "    QDialog {\n"
 "      background-color: #f0f0f0;  \n"
@@ -55,6 +55,6 @@ class Ui_Dialog(object):
 "      background-color: #45a049;  \n"
 "    }\n"
 "   "))
-        self.title.setText(_translate("Dialog", "欢迎进入内蒙古大学人车监控系统"))
+        self.title.setText(_translate("Dialog", "欢迎进入内蒙古大学车流监控系统"))
         self.go.setText(_translate("Dialog", "进入系统"))
 
